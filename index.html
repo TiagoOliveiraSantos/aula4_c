@@ -1,24 +1,26 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Calculadora de Média</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <div class="container">
-        <h1>Calculadora de Média Aritmética</h1>
-        <input type="number" id="valor1" placeholder="Digite o primeiro valor">
+      <h1>Calculadora de Média Aritmética</h1>
+      <input type="number" id="valor1" placeholder="Digite o primeiro valor" />
 
-        <input type="number" id="valor2" placeholder="Digite o segundo valor">
+      <input type="number" id="valor2" placeholder="Digite o segundo valor" />
 
-        <button onclick="media()">Verificar Média</button>
+      <button onclick="media()">Verificar Média</button>
 
-        <h2 id="resultado">O resultado aparecerá aqui</h2>
-
-    </div> <script src="js/script.js"></script>
-</body>
-
+      <div id="resultado">
+        <h2>Resultado:</h2>
+        <p id="texto"></p>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
 </html>
